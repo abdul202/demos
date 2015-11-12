@@ -23,5 +23,22 @@
 <form method="post_test" action="action_test">
     <input name="Text1" type="text"> <br>
      <input type="hidden" name="mustbe" value="enter something">
+     <textarea name="textarea">content</textarea>
+     <!--- HTML5 --->
+     <select name="select">
+	  <option>cherry</option>
+	  <option>orange</option>
+	  <option>apple</option>
+	</select>
+	<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+	datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist> 
+  Encryption: <keygen name="security">
+   <output name="x" for="a b"></output>
      <input name="Submit1" type="submit" value="submit">
 </form>
