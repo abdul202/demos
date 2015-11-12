@@ -20,7 +20,7 @@
 		</form>
 		
 		
-<form method="post">
+<form method="post_test" action="action_test">
     <input name="Text1" type="text"> <br>
      <input type="hidden" name="mustbe" value="enter something">
      <input name="Submit1" type="submit" value="submit">
