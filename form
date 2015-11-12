@@ -31,13 +31,13 @@
 	  <option>apple</option>
 	</select>
 	<button type="button" onclick="alert('Hello World!')">Click Me!</button>
-	datalist id="browsers">
-    <option value="Internet Explorer">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist> 
+	<datalist id="browsers">	
+	    <option value="Internet Explorer">
+	    <option value="Firefox">
+	    <option value="Chrome">
+	    <option value="Opera">
+	    <option value="Safari">
+       </datalist> 
   Encryption: <keygen name="security">
    <output name="x" for="a b"></output>
      <input name="Submit1" type="submit" value="submit">
