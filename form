@@ -20,25 +20,8 @@
 		</form>
 		
 		
-<form action="login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)" _lpchecked="1">
-		<script type="text/javascript" src="clientscript/vbulletin_md5.js?v=384"></script>
-		<table cellpadding="0" cellspacing="3" border="0">
-		<tbody><tr>
-			<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username">اسم العضو</label></td>
-			<td><input type="text" class="bginput" style="font-size: 11px; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDiUQsh1pnwAAAdhJREFUOMvNks1rU1EQxX9z37OJGAUF4yfYQBTUlCpBixhRaBcuAoIiiovsFBXXQQk3IYkkf4IF8S/QUjdCURELdlWjglSKunHhIukiQktLX/IYF0mkTRP8WDm7M/dyZuacA/9dpdPp/dbaEx1srR2x1g71+2/WAmvtnWAwOC8ijwABREQeiMj7bDZb6kXgdmFPRLYAQ9baK6raFJHjAKr6pReBdONsNjstImeAz6rqi8hh4FU+nx/tS5DJZA4YY7Y1Go0V13UHjTFTIuK0J/vAJVWtiUio2WwulEqlD+tOcF33LnAzEAhsnNAieirSWtZ13YfAjW4Rzb+6Jm3146q6U1V/iEjYcZxJwHSm/pZgbeVyuRfAmKp+NMb88v9g4gLnYntYXZhnauI1tT45uAqMtWGx0w8nUlwbPYazvMy+2FluXU/0DhJwCGiq6lyhUHjSaoU4dTICi1+ZfTvHbKXC9LvvDPQiKBaLBc/zhn3fvw1oq7uJkAtsjZK8mOR0PM7w4A68PkmkXC5/2qCUA1RnyI+/ZCR1j/Oxo4QnKtT+zL4636oe7IoQjxwhunsAVlZp/I3/byafU/X3kkxdJrp5kZnHz6j3O6H3EhXG71cIbQ+xVF9a9/QTGr2YJMqy6kMAAAAASUVORK5CYII=); background-attachment: scroll; background-position: 0% 50%; background-repeat: no-repeat;" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="اسم العضو" onfocus="if (this.value == 'اسم العضو') this.value = '';" autocomplete="off"></td>
-			<td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c">حفظ البيانات؟</label></td>
-		</tr>
-		<tr>
-			<td class="smallfont"><label for="navbar_password">كلمة المرور</label></td>
-			<td><input type="password" class="bginput" style="font-size: 11px; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDiUQsh1pnwAAAdhJREFUOMvNks1rU1EQxX9z37OJGAUF4yfYQBTUlCpBixhRaBcuAoIiiovsFBXXQQk3IYkkf4IF8S/QUjdCURELdlWjglSKunHhIukiQktLX/IYF0mkTRP8WDm7M/dyZuacA/9dpdPp/dbaEx1srR2x1g71+2/WAmvtnWAwOC8ijwABREQeiMj7bDZb6kXgdmFPRLYAQ9baK6raFJHjAKr6pReBdONsNjstImeAz6rqi8hh4FU+nx/tS5DJZA4YY7Y1Go0V13UHjTFTIuK0J/vAJVWtiUio2WwulEqlD+tOcF33LnAzEAhsnNAieirSWtZ13YfAjW4Rzb+6Jm3146q6U1V/iEjYcZxJwHSm/pZgbeVyuRfAmKp+NMb88v9g4gLnYntYXZhnauI1tT45uAqMtWGx0w8nUlwbPYazvMy+2FluXU/0DhJwCGiq6lyhUHjSaoU4dTICi1+ZfTvHbKXC9LvvDPQiKBaLBc/zhn3fvw1oq7uJkAtsjZK8mOR0PM7w4A68PkmkXC5/2qCUA1RnyI+/ZCR1j/Oxo4QnKtT+zL4636oe7IoQjxwhunsAVlZp/I3/byafU/X3kkxdJrp5kZnHz6j3O6H3EhXG71cIbQ+xVF9a9/QTGr2YJMqy6kMAAAAASUVORK5CYII=); background-attachment: scroll; background-position: 0% 50%; background-repeat: no-repeat;" name="vb_login_password" id="navbar_password" size="10" tabindex="102" autocomplete="off"></td>
-			<td><input type="submit" class="button" value="تسجيل الدخول" tabindex="104" title="ادخل اسم العضو وكلمة المرور الخاصة بك في الحقول المجاورة لتسجيل الدخول, أو اضغط على رابط 'التسجيل' لإنشاء حساب خاص بك." accesskey="s"></td>
-		</tr>
-		</tbody></table>
-		<input type="hidden" name="s" value="">
-		<input type="hidden" name="securitytoken" value="guest">
-		<input type="hidden" name="do" value="login">
-		<input type="hidden" name="vb_login_md5password">
-		<input type="hidden" name="vb_login_md5password_utf">
-		</form>
-		
-		
+<form method="post">
+    <input name="Text1" type="text"> <br>
+     <input type="hidden" name="mustbe" value="enter something">
+     <input name="Submit1" type="submit" value="submit">
+</form>
